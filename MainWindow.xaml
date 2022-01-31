@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Clase2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Sistema de gestión de libros de la biblia" Height="300" Width="400">
     <Grid>
+
+        <StackPanel> 
+            <Menu> 
+                <MenuItem Header="Registros" >
+                    <MenuItem Header="Libros" x:Name="rLibros" Click ="RegistroLibrosMenuItem_Click" /> <!--  -->
+                </MenuItem>
+
+                <MenuItem Header="Consultas" >
+                    <MenuItem Header="Libros" x:Name="cLibros" Click ="ConsultaLibrosMenuItem_Click" />  <!---->
+                </MenuItem>
+            </Menu>
+
+        </StackPanel>
 
     </Grid>
 </Window>
