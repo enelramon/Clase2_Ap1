@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Clase2.UI.Registros;
+using Clase2.UI.Consultas;
 
 namespace Clase2
 {
@@ -35,8 +36,8 @@ namespace Clase2
 
         private void ConsultaLibrosMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            // var cLibros = new cLibros();
-            // cLibros.Show();
+             var cLibros = new cLibros();
+            cLibros.Show();
         }
 
 
