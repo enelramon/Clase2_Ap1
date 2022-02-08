@@ -8,5 +8,6 @@ namespace Clase2.Entidades
         public int LibroId { get; set; }
         public string Titulo { get; set; }
         public string Grupo { get; set; }
+        public string Autor { get; set; }
     }
 }
